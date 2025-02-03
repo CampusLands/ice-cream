@@ -289,3 +289,50 @@ main{
     outline: none;
     backdrop-filter: blur(3px);
 }
+
+.section__container-products {
+    background: red;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.div__trendy {
+    background: violet;
+}
+.div__trendy h2{
+}
+.div__trendy img{
+}
+.article__products{
+    background: green;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 52px;
+    row-gap: 59px;
+}
+.form__container-product {
+    background: orange;
+    width: 690px;
+    height: 324px;
+}
+.form__container-product img{
+}
+.div__product {
+    background: turquoise;
+}
+.div__product h3{
+}
+.div__product label{
+}
+.div__type-order {
+    background: yellow;
+}
+.div__type-order input[type="submit"]{
+}
+.div__product-amount {
+    background: olive;
+}
+.div__product-amount input[type="number"]{
+}
